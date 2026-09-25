@@ -5,7 +5,7 @@ import ProductDetail from "./pages/ProductDetail";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
         <BrowserRouter>
           <h1>React-Router-Product-ID-Parameters</h1>
           <Routes>

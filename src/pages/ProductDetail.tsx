@@ -8,7 +8,7 @@ const ProductDetail = () => {
   const product = ProductsData[Number(id)];
 
   return (
-    <div>
+    <div className="text-white text-3xl font-bold">
       {product ? (
         <p>
           {product.title}: ¥{product.price.toLocaleString()}
